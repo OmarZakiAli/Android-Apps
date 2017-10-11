@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.example.omar.miwalk.MainActivity">
+
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#05a5f0"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:onClick="opennum"
+        android:paddingLeft="30dp"
+        android:text="numbers"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/fam"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#06daaf"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:onClick="openfam"
+        android:paddingLeft="30dp"
+        android:text="family members"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#aaf600"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:onClick="opencolors"
+        android:paddingLeft="30dp"
+
+        android:text="colors"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#d6a04f"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:onClick="openphrases"
+        android:paddingLeft="30dp"
+        android:text="phrases"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+
+</LinearLayout>
+
+
